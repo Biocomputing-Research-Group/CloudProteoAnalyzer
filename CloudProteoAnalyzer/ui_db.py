@@ -25,37 +25,16 @@ from resources import *
 import base64
 from pathlib import Path
 from PIL import Image
-# from utilities import load_bootstrap
-# import pandas as pd #pip install pandas
-# import numpy as np #pip install numpy
-# import json #pip install jsonlib
-# from GetAlphaPeptMS2 import *
-# import scp
-# import paramiko
-# import random
-# import smtplib, ssl
-# from email.message import EmailMessage
-# import mimetypes
-# from email.mime.text import MIMEText
-# from asyncore import write
-# from cProfile import label
-# from copyreg import dispatch_table
-# from ntpath import join
-# from tabnanny import check
-# from unittest import result
-# from xmlrpc.client import boolean
-#send different attachment
-#check add filter of sipros
-#two code ptm relation
+
 
 st.set_page_config(
-    page_title="Sipros Pept",
+    page_title="CloudProteoAnalyzer",
     page_icon="SP",
     layout="wide",
     menu_items={
         'Get Help': None,
         'Report a bug': None,
-        'About': "# The Sipros Pept"
+        'About': "# CloudProteoAnalyzer"
     })
 # ptm_list = ["PTM{~} = M","PTM{~} = MPK","PTM{!} = NQR","PTM{@} = STYHD","PTM{>to1} = STYHD","PTM{<to2} = ST","PTM{%} = K","PTM{^} = KRED","PTM{&} = KR","PTM{*} = K","PTM{(} = C","PTM{)} = Y","PTM{/} = C","PTM{$} = D"]
 
@@ -981,7 +960,7 @@ def loginPage(col22:st)->None:
     col22.markdown("""
     <style>div[class="css-6vw1hb e1tzin5v2"] {text-align:center;} </style>
     """,unsafe_allow_html=True)
-    col22.title('Welcome to Sipros Pept')
+    col22.title('Welcome to CloudProteoAnalyzer')
     col22.write('')
     col22.write('')
     col22.write('') 

@@ -11,4 +11,12 @@ There are script files for obtaining benchmark results in the paper.
 The parameters of the methods are used for benchmark results in the paper.
 ### Database Folder
 The protein databases are used for benchmark results in the paper.
-
+## Software Setup
+### Other Dependent Software
+* Python 3.8.10
+* Apache 2.4.41
+* Raxport(https://github.com/xyz1396/Raxport.net)
+* Slurm(https://slurm.schedmd.com/documentation.html)
+* Sipros Ensemble(https://github.com/thepanlab/Sipros4)
+* ProRata
+* 

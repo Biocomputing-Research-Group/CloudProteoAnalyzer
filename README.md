@@ -13,10 +13,13 @@ The parameters of the methods are used for benchmark results in the paper.
 The protein databases are used for benchmark results in the paper.
 ## Software Setup
 ### Other Dependent Software
-* Python 3.8.10
 * Apache 2.4.41
 * Raxport(https://github.com/xyz1396/Raxport.net)
 * Slurm(https://slurm.schedmd.com/documentation.html)
 * Sipros Ensemble(https://github.com/thepanlab/Sipros4)
 * ProRata
-* 
+### Dependencies
+* Python 3.8.10
+* Python libraries: Streamlit, Numpy, Pandas, Scipy, scikit-learn, google-api-python-client, google-auth-httplib2, google-auth-oauthlib, Requests, SSL, and Paramiko.
+## Installation
+

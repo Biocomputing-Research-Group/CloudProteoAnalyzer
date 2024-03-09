@@ -22,4 +22,7 @@ The protein databases are used for benchmark results in the paper.
 * Python 3.8.10
 * Python libraries: Streamlit, Numpy, Pandas, Scipy, scikit-learn, google-api-python-client, google-auth-httplib2, google-auth-oauthlib, Requests, SSL, and Paramiko.
 ## Installation
-
+### Supercomputer Part
+1. Download and install Slurm
+2. Download and install Sipros Ensemble
+3. Download and install ProRata

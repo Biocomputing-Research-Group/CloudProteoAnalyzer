@@ -14,10 +14,10 @@ The protein databases are used for benchmark results in the paper.
 ## Software Setup
 ### Dependent Software
 * Apache 2.4.41
-* Raxport(https://github.com/xyz1396/Raxport.net)
-* Slurm(https://slurm.schedmd.com/documentation.html)
-* Sipros Ensemble(https://github.com/thepanlab/Sipros4)
-* ProRata(Download from the PraRata folder)
+* Raxport (https://github.com/xyz1396/Raxport.net)
+* Slurm (https://slurm.schedmd.com/documentation.html)
+* Sipros Ensemble (https://github.com/thepanlab/Sipros4)
+* ProRata (Download from the PraRata folder)
 ### Dependencies
 * Python 3.8.10
 * Python libraries: Streamlit, Numpy, Pandas, Scipy, scikit-learn, google-api-python-client, google-auth-httplib2, google-auth-oauthlib, Requests, SSL, and Paramiko.
@@ -28,5 +28,8 @@ The protein databases are used for benchmark results in the paper.
 3. Download ProRata
 4. Add the path of the executing files of Sipros Ensemble and ProRata to the system path
 ### Web Application Server Part
-1. Download the source code
-2. 
+1. Download and install Apache
+2. Download and install Raxport
+3. Download the source code
+4. Create the Google client ID credentials (https://developers.google.com/workspace/guides/create-credentials) and download the credential JSON file
+5. setup the path of credential JSON file in resources.py

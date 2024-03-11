@@ -34,6 +34,6 @@ The protein databases are used for benchmark results in the paper.
 4. Create the Google client ID credentials (https://developers.google.com/workspace/guides/create-credentials) and download the credential JSON file
 5. Setup some configurations in resoures.py
 6. Run server
-   '''
+   ```
    streamlit run ui_db.py --server.address localhost --server.port 8502 --server.enableXsrfProtection=false --server.enableCORS=false . &
-   '''
+   ```
